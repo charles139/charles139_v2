@@ -200,6 +200,29 @@ div.front_ul {
 .front_ul ul {
     list-style: none;
 }
+.portfolio {
+    width: 100%;
+    background: #000;
+    overflow: auto;
+}
+.project {
+    display: inline-block;
+    width: 250px;
+    margin: 10px;
+}
+.project img {
+    max-width: 250px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 4px #fff;
+}
+.project p {
+    text-align: center;
+    border-bottom: dotted 1px;
+}
+.project a {
+    color: inherit;
+}
+
 
 @media (min-width: 1130px) {
     .home_right_top .name.logo {
