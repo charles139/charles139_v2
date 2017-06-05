@@ -222,6 +222,12 @@ div.front_ul {
 .project a {
     color: inherit;
 }
+.about p {
+    font-size: 16px;
+}
+.about {
+    background-color: #000;
+}
 
 
 @media (min-width: 1130px) {
