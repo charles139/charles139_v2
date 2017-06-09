@@ -233,6 +233,7 @@ div.front_ul {
     height: 90px;
     margin-top: 30px;
     cursor: pointer;
+    text-shadow: 11px 10px 30px #000;
 }
 
 @media (min-width: 1130px) {
