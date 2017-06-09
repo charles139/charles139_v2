@@ -204,6 +204,7 @@ div.front_ul {
     width: 100%;
     background: #000;
     overflow: auto;
+    text-align: center;
 }
 .project {
     display: inline-block;
