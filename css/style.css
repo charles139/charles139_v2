@@ -228,7 +228,11 @@ div.front_ul {
 .about {
     background-color: #000;
 }
-
+.home_left.middle p {
+    height: 90px;
+    margin-top: 30px;
+    cursor: pointer;
+}
 
 @media (min-width: 1130px) {
     .home_right_top .name.logo {
@@ -247,6 +251,12 @@ div.front_ul {
     .home_right_top .name.logo {
         width: 27%;
     }   
+}
+@media (max-width:1159px) {
+    .home_right_bottom.bl p {
+        font-size: 16px;
+        white-space: nowrap;
+    }
 }
 @media (max-width: 767px) {
     #home_flex_wrap {
@@ -271,6 +281,11 @@ div.front_ul {
     }
     .home_left {
         min-height: 150px;
+    }
+}
+@media (max-width: 500px) {
+    .home_right_bottom.bl p {
+        white-space: initial;
     }
 }
 @media (max-width: 484px) {

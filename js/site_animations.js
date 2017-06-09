@@ -58,7 +58,7 @@ $(document).ready(function(){
 
 	//PORTFOLIO BUTTON
 	var portfolio_butt = {
-		id: $('.home_right_bottom.bl'),
+		id: $('.home_left.middle'),
 		show: function(){
 			portfolio_butt.id.click(function(){
 				portfolio_div.id.css('z-index' , 12);
