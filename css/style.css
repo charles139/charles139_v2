@@ -235,6 +235,9 @@ div.front_ul {
     cursor: pointer;
     text-shadow: 11px 10px 30px #000;
 }
+.tbox_thirds.front, .tbox_thirds.back, .tbox_thirds.team, .tbox_thirds.clients {
+    cursor: pointer;
+}
 
 @media (min-width: 1130px) {
     .home_right_top .name.logo {
